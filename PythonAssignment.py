@@ -1,10 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[87]:
-
-
-# writing a is_even function 
+# writing  is_even function to determine if any number is even or not
 
 def is_even():
     x = int(input("Enter a Number: "))
@@ -17,17 +12,7 @@ def is_even():
         return False
     
 
-
-# In[81]:
-
-
-is_even()
-
-
-# In[35]:
-
-
-# writing calculate_grade function
+# writing calculate_grade function to determine the grade of the students
 
 def calculate_grade():
     score = int(input("Enter a number: "))
@@ -46,42 +31,23 @@ def calculate_grade():
         print('F')
 
 
-# In[36]:
-
-
-calculate_grade()
-
-
-# In[40]:
-
-
-# writing calculate_area
+# writing calculate_area Fuction to calculate the area of a rectangle
 
 def calculate_area():
     length = int(input("Enter the length of the rectangle: "))
     breadth = int(input("Enter the breadth of the rectangle: "))
     
-    #calculate the area of the rectangle
+    # calculate the area of the rectangle using the area formula
     
     area  = length * breadth
     print(f'Area of Rectangle is {area}')
     
 
-
-# In[41]:
-
-
-calculate_area()
-
-
-# In[33]:
-
-
-# writing is_triangle Function
+# writing is_triangle Function to determine if the sides can form a valid triangle
 
 def is_triangle():
 
-    # prompting user for length value intake
+    # prompting user for lengths of the sides
     
     a = int(input("Enter the length of the first side: "))
     b = int(input("Enter the length of the second side: "))
@@ -97,16 +63,7 @@ def is_triangle():
         return False
 
 
-# In[34]:
-
-
-is_triangle()
-
-
-# In[82]:
-
-
-# writing max_of_three function
+# writing max_of_three function to determine the higest number.
 
 def max_of_three():
     a = int(input("Enter the first number: "))
@@ -123,16 +80,7 @@ def max_of_three():
         return c
 
 
-# In[83]:
-
-
-max_of_three()
-
-
-# In[85]:
-
-
-# writing reverse_string Function
+# writing reverse_string Function to reverse any phrase or text.
 
 def reverse_string():
     word = input("Enter a Word: ")
@@ -142,14 +90,6 @@ def reverse_string():
     reverse_word = word[::-1]
     print(reverse_word)
 
-
-# In[86]:
-
-
-reverse_string()
-
-
-# In[ ]:
 
 
 
