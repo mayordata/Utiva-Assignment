@@ -54,10 +54,9 @@ def is_triangle():
     c = int(input("Enter the length of the third side: "))
     
     # calculating two side and writing function if the sides can form a triangle using triangle inequality theorem.
-    # Triangle inequality theorem says the sum of any of the two sides must be greater or equal to the third side.
+    # Triangle inequality theorem says the sum of any of the two sides must be greater than to third side.
     
-    d = a + b 
-    if d >= c:
+    if (a+b) > c and (a+c) > b and (b + c) > a:
         return True
     else:
         return False
@@ -70,7 +69,7 @@ def max_of_three():
     b = int(input("Enter the second number: "))
     c = int(input("Enter the third number: "))
     
-    # using the if-elif to reyrun the maximum number than using an inbuilt function
+    # using the if-elif to return the maximum number than using an inbuilt function
     
     if a >= b and a >= c:
         return a
